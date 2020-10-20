@@ -60,3 +60,4 @@ Patient
 updatePatient(username, patientType, symtoms) 
 
 
+
