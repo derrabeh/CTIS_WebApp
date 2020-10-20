@@ -1,7 +1,7 @@
 # CTIS_WebApp
 Web app for CTIS
 
-Theme colour: deeppink  (#FF1493)
+Theme colour: #5bc0de ("Info" on Bootstrap)
 
 View wireframes here: https://balsamiq.cloud/sk0y2rn/p1sxzpr
 
