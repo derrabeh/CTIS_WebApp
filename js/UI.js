@@ -1,9 +1,9 @@
 //for dashboard
 //initialize
-
-/* 
+/** */
 if (storage_position=="officer"){
     document.getElementById("testdisplay").style.display = "block";
+    document.getElementById("graph").style.display="block";
     document.getElementById("posIN").innerHTML = "officer";
 }
 else if (storage_position=="manager"){
@@ -16,7 +16,15 @@ else if (storage_position=="tester"){
     document.getElementById("testdisplay").style.display = "block";
     document.getElementById("posIN").innerHTML = "tester";
 }
-*/
+else if (storage_position=="master"){
+    document.getElementById("testdisplay").style.display = "block";
+    document.getElementById("centredisplay").style.display = "block";
+    document.getElementById("officerdisplay").style.display = "block";
+    document.getElementById("testkitdisplay").style.display = "block";
+    document.getElementById("graph").style.display="block";
+    document.getElementById("posIN").innerHTML = "master";
+}
+
 ShowCentre();
 ShowOfficer();
 ShowTestkit();
@@ -115,3 +123,4 @@ function cancelUpdatetest() {
     document.getElementById('testid').value ="";
     document.getElementById('testresult').value ="";
 }
+

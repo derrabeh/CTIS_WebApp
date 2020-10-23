@@ -147,11 +147,11 @@ th {
     margin-bottom: 12px;
     border-radius: 20px;
 }
-/**-----------------------------------------------========================================================================================================
-#centredisplay, #officerdisplay, #testkitdisplay, #testdisplay, #topalertbar {
+
+#centredisplay, #officerdisplay, #testkitdisplay, #testdisplay, #topalertbar, #graph{
     display: none;
 }
-/**popups**/
+
 .shade {
     background-color: rgb(0, 0, 0,);
     opacity: 80%;

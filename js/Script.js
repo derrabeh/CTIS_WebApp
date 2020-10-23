@@ -1,8 +1,7 @@
 //for dashboard testing only
 
-//var storage = window.sessionStorage;
-//var storage_position = storage.getItem("position");
-storage_position = "officer";
+var storage = window.sessionStorage;
+var storage_position = storage.getItem("position");
 
 //dummy data
 var centre = [{"centreID":"C1","centreName":"aaaa"},{"centreID":"C2","centreName":"bbbbbb"},{"centreID":"C3","centreName":"ccccccc"},{"centreID":"C4","centreName":"ccccccc"}];

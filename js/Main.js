@@ -5,7 +5,8 @@ var account = [{"username":"admin","pass":123,"position":"officer"},
 {"username":"manager","pass":"abc","position":"manager"}, 
 {"username":"tester","pass":12345,"position":"tester"}, 
 {"username":"wong","pass":111,"position":"patient"}, 
-{"username":"beh","pass":111,"position":"patient"}]
+{"username":"beh","pass":111,"position":"patient"},
+{"username":"master","pass":123,"position":"master"}]
 
 function signin() {
     var id = document.getElementById("loginname").value;
