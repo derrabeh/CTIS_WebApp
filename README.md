@@ -7,6 +7,14 @@ View wireframes here: https://balsamiq.cloud/sk0y2rn/p1sxzpr
 
 Project report document: https://helpliveedu-my.sharepoint.com/:w:/g/personal/b1701898_helplive_edu_my/ESzdU1Yr2Q9BlwwqZRa8JSIB7uX5N_AJ5e8d2-bgUj6m9w?e=2ktpqt
 
+account = 
+[{"username":"admin","pass":123,"position":"officer"},
+{"username":"manager","pass":"abc","position":"manager"}, 
+{"username":"tester","pass":12345,"position":"tester"}, 
+{"username":"wong","pass":111,"position":"patient"}, 
+{"username":"beh","pass":111,"position":"patient"},
+{"username":"master","pass":123,"position":"master"}]
+
 ## Usecases: 
 
 addOfficer(username, password, name, position)
